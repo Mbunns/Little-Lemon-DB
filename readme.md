@@ -1,7 +1,7 @@
 <h1><strong>Little Lemon Database Project</strong></h1>
 
 <h2>About the Project</h2>
-<p>The goal of this project is to help a resturant named Little Lemon set up a database system for data storage and analysis. First, the database will be set up using MySQL Workbench and a ER diagram. After that, SQL will be used to create queries such as a virtual table and stored procedures for reports and analysis of the data, followed by the creation of a booking system for the database using SQL queries, transactions, and stored procedures. Then well wil create a database client using python and MySQL connector. Lastly, we will visualize the data with the help of Tableau to gain further insights.</p>
+<p>The goal of this project is to help a resturant named Little Lemon set up a database system for data storage and analysis. First, the database will be set up using MySQL Workbench and a ER diagram. After that, SQL will be used to create queries such as a virtual table and stored procedures for reports and analysis of the data, followed by the creation of a booking system for Little Lemon using SQL queries, transactions, and stored procedures. Then well wil create a database client using python and MySQL connector to create access to the database for a python based application. Lastly, we will visualize the data with the help of Tableau to gain further insights.</p>
 
 
 <h2>Setting Up the Database</h2>
@@ -157,12 +157,12 @@ delimiter ;
 ```
 
 <h2>Database Client</h2>
-<p>In this section we add a database client that can access the Little Lemon database to perform any task via SQL queries using a python based application. 
-This database client uses the MySQL connector, a client that allows to connect to the Little Lemon database which is in a MySQL server.
-Using MySQL connector we create a cursor in the python client in which we can enter SQL queries in the form of strings.
-This database client can be downloaded from this repository.
+<p>Here we added a database client that can access the Little Lemon database to perform tasks using a python based applications. 
+For this we are using MySQL connector, a client that allows us to connect to the Little Lemon database that is in a MySQL server.
+Using MySQL connector, we can create a cursor in python that we then use to execute SQL queries in the form of strings.
 </p>
 
+[This database client can be viewed in the repository.](https://github.com/Mbunns/Little-Lemon-DB/blob/master/littlelemonclient.ipynb)
 
 <h2>Data Visualization</h2>
 <p>Here we have created 5 different visualizations using Tableau.</p>
