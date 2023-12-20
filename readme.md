@@ -1,7 +1,7 @@
 <h1><strong>Little Lemon Database Project</strong></h1>
 
 <h2>About the Project</h2>
-<p>The goal of this project is to help a resturant named Little Lemon set up a database system for data storage and analysis. First, the database will be set up using MySQL Workbench and a ER diagram. After that, SQL will be used to create queries such as a virtual table and stored procedures for reports and analysis of the data, followed by the creation of a booking system for Little Lemon using SQL queries, transactions, and stored procedures. Then well wil create a database client using python and MySQL connector to create access to the database for a python based application. Lastly, we will visualize the data with the help of Tableau to gain further insights.</p>
+<p>The goal of this project is to help a resturant named Little Lemon set up a database system for data storage and analysis. First, the database will be set up using MySQL Workbench and a ER diagram. After that, SQL will be used to create queries such as a virtual table and stored procedures for reports and analysis of the data, followed by the creation of a booking system for Little Lemon using SQL queries, transactions, and stored procedures. Then we wil create a database client using python and MySQL connector to create access to the database for a python based application. Lastly, we will visualize the data with the help of Tableau to gain further insights.</p>
 
 
 <h2>Setting Up the Database</h2>
@@ -11,8 +11,8 @@
 
 <p>The foward engineering feature in MYSQL will allow us create the database from the ER diagram.</p>
 
-<h2>SQL Queires for Reports and Analysis</h2>
-<p>These SQL queires will focus around providing fuctionality for future sales reports using the Litlle Lemon database.</p>
+<h2>SQL Queries for Reports and Analysis</h2>
+<p>These SQL queries will focus around providing fuctionality for future sales reports using the Litlle Lemon database.</p>
 
 <h3>OrdersView Virtual Table</h3>
 
@@ -168,12 +168,12 @@ Using MySQL connector, we can create a cursor in python that we then use to exec
 <p>Here we have created 5 different visualizations using Tableau.</p>
 
 <h3>Customer Sales</h3>
-<p>A customer sales bar chart with filters that show only sales that atleast $70.</p>
+<p>A customer sales bar chart with filters that shows only sales that atleast $70.</p>
 
 ![alt text](https://github.com/Mbunns/Little-Lemon-DB/blob/master/tableau-images/customer-sales.jpg?raw=true)
 
 <h3>Profit Chart</h3>
-<p>A profit line chart that show the sales trend from 2019-2022.</p>
+<p>A profit line chart that shows the sales trend from 2019-2022.</p>
 
 ![alt text](https://github.com/Mbunns/Little-Lemon-DB/blob/master/tableau-images/profit-chart.jpg?raw=true)
 
